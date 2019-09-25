@@ -1,0 +1,123 @@
+<!-- 
+project:Eqs(equator story)
+date:2092019
+owner:chriss ngure
+id:dickson john
+signature:xon
+copyright 2019
+
+-->
+
+
+<html>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<script type="text/javascript" src="jquery.js"></script>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.css">
+<style type="text/css">
+body{ 
+/*background-image:url('../pic/34.jpg');*/
+background-size:cover;
+}
+input[type="text"],input[type="password"]{
+
+
+}
+</style>
+<body >
+<div class="eqs">
+<!--LOGIN FORM HERE-->
+<div class="mama row justify-content-center" style="float:left;">
+<div class="container col-md-12 pt-3 bg-light">
+<span class="pl-2 h3">Eqs</span>
+<span class="text-right" style="float:right;"><button id="reg" class="btn" >
+<i class="fa fa-hand-pointer-o"></i>  Register</button></span>
+
+</div>
+
+
+<div class=" row justify-content-center ">
+<div class="container">
+<form action="stories.html" class="col-md-12 mt-5">
+<h6 class="header text-center text-info">login </h6>
+<input type="text" placeholder="Enter Username" class="form-control small" required> <br>
+<input type="password" placeholder="Enter Password" class="form-control small" minlenght="8" required><br>
+<input type="submit" value="login" class="btn btn-dark btn-sm btn-block"><br>
+
+<span class="small">Forgot a Password ?? <a href="#" >Recover <i class="small fa fa-spinner"></i></a></span>
+
+
+
+        </form>
+
+
+ 
+
+          </div></div></div>
+  
+  
+<!-- REGISTER FORM HERE-->
+
+  <div class="baba row  justify-content-center" style="float:left; display:none;" >
+  <div class="top container col-md-12 pt-3 bg-light">
+  <span class="pl-2 h3">Eqs</span>
+  <span class=""><button id="log" class="btn" style="float:right;">
+  <i class="fa fa-sign-in">  </i>  login</button></span>
+  </div>
+  
+  
+  <div class="row justify-content-center mt-4">
+  <div class="container">
+  <form>
+  <h6 class="header text-center">Create Account</h6>
+  <input type="text" placeholder="Enter Your Full Name" class="form-control small" required> <br>
+  <input type="email" placeholder="Enter Your Email" class="form-control small" required><br>
+  <input type="password" placeholder="Create New Password" class="form-control small" minlength="8" required><br>
+  <input type="password" placeholder="Confirm password" class="form-control small" minlength="8" required><br>
+  <input type="submit" value="Register" class="btn btn-dark btn-sm btn-block"><br>
+  
+  
+  
+  </form>
+  
+  
+  
+  
+  </div></div></div></div>
+  
+  <div class="row col-md-12 pt-5" style="float:left; margin-top:100%;position:fixed;">
+  <div class="container col-md-12 text-center text-info">
+  EQS&copy;2019
+  
+  
+  
+  </div></div>
+  
+          
+          <script type="text/javascript">
+          $(document).ready(function(){
+          // document.write('god please give me job');
+          
+          $("#reg").click(function(){
+      
+          $(".mama").hide();
+          $(".baba").show();
+         
+          
+          });
+          
+          $('#log').click(function(){
+          $(".baba").hide();
+          $(".mama").show();
+          
+          });
+          
+         
+          
+          
+          });
+          </script>
+          
+          </body>
+          </html>
+        
